@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import os
 
 ADDRESS = "127.0.0.1"
-PORT = 8080
+PORT = 9925
 FILEDIR = os.getcwd() + "/html/"
 
 class MyHandler(BaseHTTPRequestHandler):
